@@ -1,0 +1,32 @@
+</head>
+    <body>
+     <script>
+	  let N1;
+	  let N2; 
+	  let N3;
+	  let Cartel;
+	  N1 =parseInt(prompt('Ingresa el peso que quieras en kilos',''));
+	  N2 =parseInt(prompt('Ingresa el peso que quieras en kilos',''));
+	  N3 =parseInt(prompt('Ingresa el peso que quieras en kilos',''));
+	  if (N1>N2 && N1>N3)
+	   {
+	    Cartel="El primer numero es el mayor";
+	   }
+	  if (N2>N1 && N2>N3)
+	   {
+	    Cartel="El segundo numero es el mayor";
+	   }
+	  if (N3>N2 && N2>N1)
+       {
+	    Cartel="El tercer numero es el mayor";
+	   }
+	  if (N1 == N2 && N1 == N3)
+	   {
+	    Cartel="Son iguales";
+	   }
+	 document.write(Cartel);
+      	  
+	  
+	 </script>
+    </body>
+ </html>
